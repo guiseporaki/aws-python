@@ -1,0 +1,47 @@
+{
+    "users": [
+      {
+        "username": "paco123",
+        "password": "paco123password",
+        "full_name": "Paco Garcia",
+        "email": "paco.garcia@example.com",
+        "phone_number": "+34-612-345-678",
+        "address": "123 Calle Falsa, Madrid, Spain",
+        "credit_card": {
+          "number": "4111111111111111",
+          "expiration_date": "12/24",
+          "cvv": "123"
+        }
+      },
+      {
+        "username": "ana456",
+        "password": "ana456password",
+        "full_name": "Ana Lopez",
+        "email": "ana.lopez@example.com",
+        "phone_number": "+34-612-987-654",
+        "address": "456 Avenida Central, Barcelona, Spain",
+        "credit_card": {
+          "number": "5555555555554444",
+          "expiration_date": "01/25",
+          "cvv": "456"
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "user": "paco123",
+        "transaction_id": "TXN123456789",
+        "amount": 150.75,
+        "date": "2024-10-10",
+        "payment_method": "credit_card"
+      },
+      {
+        "user": "ana456",
+        "transaction_id": "TXN987654321",
+        "amount": 250.00,
+        "date": "2024-10-11",
+        "payment_method": "credit_card"
+      }
+    ]
+  }
+  
